@@ -1,0 +1,40 @@
+from tkinter import *
+
+# Création d'une fenêtre principale
+root = Tk()
+
+# Création des widgets
+label = Label(root, text="Label")
+button = Button(root, text="Button")
+entry = Entry(root)
+text = Text(root)
+frame = Frame(root)
+checkbutton = Checkbutton(root, text="Checkbutton")
+radiobutton = Radiobutton(root, text="Radiobutton")
+listbox = Listbox(root)
+scrollbar = Scrollbar(root)
+scale = Scale(root)
+canvas = Canvas(root)
+menu = Menu(root)
+menubutton = Menubutton(root, text="Menubutton")
+spinbox = Spinbox(root)
+panedwindow = PanedWindow(root)
+
+# Disposition des widgets dans la fenêtre
+label.pack()
+button.pack()
+entry.pack()
+text.pack()
+frame.pack()
+checkbutton.pack()
+radiobutton.pack()
+listbox.pack()
+scrollbar.pack()
+scale.pack()
+canvas.pack()
+menubutton.pack()
+spinbox.pack()
+panedwindow.pack()
+
+# Lancement de la boucle principale
+root.mainloop()
