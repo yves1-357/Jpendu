@@ -216,6 +216,7 @@ cnv = tk.Canvas(frame2, width=small_width_img, height=small_height_img, highligh
 cnv.place(x=20, y=120)  # Image à gauche de l'interface
 
 
+
 # Boutons pour les lettres
 Alphabet = "ABDEFGILMNOPRSTV"
 btns = []

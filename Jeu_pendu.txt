@@ -247,7 +247,7 @@ small_width_img = win.width() if win else 200
 small_height_img = win.height() if win else 150
 
 cnv = tk.Canvas(frame2, width=small_width_img, height=small_height_img, highlightthickness=4, bg="#E6E6E6")
-cnv.place(x=20, y=120)  # Image à gauche de l'interface tkinter
+cnv.place(x=20, y=120)  # Image à gauche de l'interface
 
 # Boutons pour les lettres
 Alphabet = "ABDEFGILMNOPRSTV"
